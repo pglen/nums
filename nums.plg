@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: nums - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSP6DFC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/nums.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\develop6\fdn\nums\numsDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSP6DFC.tmp" 
+Creating temporary file "C:\Users\PETERG~1\AppData\Local\Temp\RSP6DFD.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/nums.pdb" /debug /machine:I386 /out:"Debug/nums.exe" /pdbtype:sept 
+.\Debug\nums.obj
+.\Debug\numsDlg.obj
+.\Debug\dsp.obj
+.\Debug\label.obj
+.\Debug\lcd7.obj
+.\Debug\misc.obj
+.\Debug\mxpad.obj
+.\Debug\PlaySound.obj
+.\Debug\StdAfx.obj
+.\Debug\Support.obj
+.\Debug\nums.res
+]
+Creating command line "link.exe @C:\Users\PETERG~1\AppData\Local\Temp\RSP6DFD.tmp"
+<h3>Output Window</h3>
+Compiling...
+numsDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+nums.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
