@@ -2,20 +2,22 @@
 
 Giant controllable numbers on screen. Ideal setup is a big screen TV attached to a PC. 
 
-The numbers can be controlled over the LAN with the numscli network client program. (see screenshots)
+The numbers can be controlled over the LAN with the numcli network client program. (see screenshots)
 
-This project contains the source, the only two files one needs is in the respective 'Release'
-directories.
-      o .\Release\nums.exe
-	  o .\numscli\Release\numcli.exe
+This project contains the source, but one needs the only three files. 
 
-One sound file (optional) named notify1.wav will be played when the number display is modified. 
-Copy to target or replace it as needed.
+	  -  .\notify1.wav
+	  -  .\Release\nums.exe
+	  -  .\numscli\Release\numcli.exe
 
-Number Screen
+	  
+ The sound file (optional) named notify1.wav will be played when the number display is updated. 
+ One may replace the file with a different sound as needed.
+
+##Number Screen
 
 ![Screen Shot](./scr_shot.png)
 
-Client screen 
+##Client screen 
 
 ![Client Screen Shot](./screen_client.png)
