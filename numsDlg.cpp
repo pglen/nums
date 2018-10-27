@@ -842,7 +842,7 @@ BOOL CCamDlg::PreTranslateMessage(MSG* pMsg)
         //TRACE("Name resolution request from %s with '%s' ... ",
         //                                            str, buff);
         // Answer name resolution:
-        if(strcmp(buff, "cam"))
+        if(strcmp(buff, "num"))
             {
             TRACE("Unrecognized request\r\n");
 			}
